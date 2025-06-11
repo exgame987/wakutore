@@ -75,7 +75,8 @@ export const ILLUSTRATIONS_DATA: Illustration[] = [
 export const POINTS_STORAGE_KEY = 'fitArtRewardsPoints';
 export const UNLOCKED_ILLUSTRATIONS_STORAGE_KEY = 'fitArtRewardsUnlocked';
 
-// Sound Effect File Paths (assuming they are in a 'sounds' folder at the project root)
-export const SOUND_WORKOUT_START = './sounds/workout-start.mp3';
-export const SOUND_WORKOUT_COMPLETE = './sounds/workout-complete.mp3';
-export const SOUND_GALLERY_UNLOCK = './sounds/gallery-unlock.mp3';
+// Sound Effect File Paths (assuming they are in public/sounds/ or a 'sounds' folder at the root)
+// Changed to relative paths for GitHub Pages
+export const SOUND_WORKOUT_START = 'sounds/workout-start.mp3';
+export const SOUND_WORKOUT_COMPLETE = 'sounds/workout-complete.mp3';
+export const SOUND_GALLERY_UNLOCK = 'sounds/gallery-unlock.mp3';
